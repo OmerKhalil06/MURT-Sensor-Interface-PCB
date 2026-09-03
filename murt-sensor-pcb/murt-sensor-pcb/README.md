@@ -2,8 +2,7 @@
 
 Sensor interface and monitoring board for the **McMaster Underwater Robotics Team (MURT)** ROV/submarine platform. This board collects environmental and vehicle-state data and detects water leaks, reporting sensor readings to the main vehicle controller while the ROV is submerged.
 
-![PCB Render](Images/pcb-render.png)
-*Add a top-down render or photo of the assembled board here.*
+<img width="1239" height="417" alt="image" src="https://github.com/user-attachments/assets/65e71aa2-9981-436b-920a-9c6b62fb8b94" />
 
 ## Overview
 
@@ -26,22 +25,8 @@ This board is responsible for gathering environmental and structural health data
 
 The board is designed to sit inside the sealed electronics housing and continuously report sensor data, with the leak detection circuit acting as an early-warning system for hull integrity.
 
-## Repository Structure
 
-```
-murt-sensor-pcb/
-├── Hardware/
-│   ├── Project/       # Altium project file (.PrjPcb) and workspace
-│   ├── Schematic/      # Schematic files (.SchDoc)
-│   └── PCB/            # PCB layout files (.PcbDoc)
-├── Manufacturing/
-│   ├── Gerbers/        # Gerber files for fabrication
-│   ├── Drill/          # Drill files (NC drill / Excellon)
-│   ├── BOM/            # Bill of materials
-│   └── PickAndPlace/   # Centroid / pick-and-place files for assembly
-├── Documentation/       # Datasheets, design notes, pinout references
-└── Images/              # Renders, photos, schematic screenshots
-```
+<img width="1244" height="425" alt="image" src="https://github.com/user-attachments/assets/cefd6664-7161-4572-9068-233e9b037b77" />
 
 ## Sensors & Key Components
 
@@ -52,7 +37,7 @@ murt-sensor-pcb/
 | MPU-6050 | 6-axis IMU (accel + gyro) | I²C |
 | BM02B-GHS-TBT(LF)(SN) | Board-to-vehicle interconnect | JST GH, 2-pin |
 
-*(Update pin counts, connector counts, and interface details as needed to match your final schematic.)*
+<img width="1190" height="768" alt="image" src="https://github.com/user-attachments/assets/b8e584b7-3d3d-4386-8295-04eef9640715" />
 
 ## Getting Started
 
@@ -64,12 +49,6 @@ murt-sensor-pcb/
 ### Manufacturing
 Gerbers, drill files, BOM, and pick-and-place files for ordering/assembly are in the `Manufacturing/` folder. See `Manufacturing/BOM/` for the parts list before ordering.
 
-## Revision History
-
-| Rev | Date | Notes |
-|---|---|---|
-| A | *(date)* | Initial release |
-
 ## License
 
 Hardware design files (schematics, PCB layout, Gerbers, BOM) in this repository are licensed under the **CERN Open Hardware Licence Version 2 - Weakly Reciprocal (CERN-OHL-W v2)**. See [LICENSE](LICENSE) for full terms.
@@ -78,5 +57,4 @@ Any accompanying firmware/software, if added to this repository, will be license
 
 ## Team
 
-Developed by **[Your Name]** for the **McMaster Underwater Robotics Team (MURT)**.
-*(Add link to team website/organization page here.)*
+Developed by **Omer Khalil** for the [**McMaster Underwater Robotics Team (MURT)**](https://www.macmurt.com/).
