@@ -12,7 +12,15 @@ Sensor interface and monitoring board for the **McMaster Underwater Robotics Tea
 | **Board type** | Sensor interface / monitoring board |
 | **Deployment** | Internal, McMaster Underwater Robotics Team ROV |
 | **License (hardware)** | CERN-OHL-W v2 |
-| **Status** | *(e.g. Rev A — in testing)* |
+| **Status** | *in testing)* |
+
+## Features
+
+- **Real-time environmental monitoring** — continuous temperature readings via 1-Wire, streamed to the main controller during dive operations
+- **Early leak detection** — custom BJT-based sensing circuit flags water ingress before it reaches critical electronics, acting as a hull-integrity failsafe
+- **6-axis motion/orientation sensing** — onboard IMU provides accelerometer and gyro data for vehicle state estimation
+- **Single-connector vehicle integration** — compact JST GH interconnect for clean, low-profile wiring inside the enclosure
+- **Designed for sealed enclosure operation** — components and layout chosen for use inside a submerged, sealed electronics housing
 
 ## Functionality
 
