@@ -1,0 +1,28 @@
+SPDX-License-Identifier: CERN-OHL-W-2.0
+
+This hardware design (schematics, PCB layout, Gerbers, BOM, and associated
+design files) is licensed under the CERN Open Hardware Licence Version 2 -
+Weakly Reciprocal (CERN-OHL-W v2).
+
+CERN-OHL-W is a copyrighted license text published and maintained by CERN,
+and per its own terms may only be redistributed in unmodified form. Rather
+than reproduce it here, download the official, definitive license text
+directly from CERN before publishing this repository:
+
+    https://ohwr.org/cern_ohl_w_v2.pdf
+    https://cern-ohl.web.cern.ch/
+
+Replace this file with that official PDF/text (or keep this pointer file
+and reference the URL above) before pushing to GitHub, so the repository
+ships the authoritative license text rather than a copy.
+
+Summary (non-binding, see the full text for actual terms):
+- You may use, study, modify, and distribute this design.
+- If you convey the hardware or modified source, you must make the
+  complete corresponding source available under the same license.
+- A larger product that merely uses this board through its external
+  interfaces does not itself need to be released under CERN-OHL-W.
+- Contributors grant an express patent licence for their contributions.
+- The design is provided with no warranty.
+
+Copyright (c) 2026 [Your Name], McMaster Underwater Robotics Team (MURT)
